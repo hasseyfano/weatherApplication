@@ -1,0 +1,30 @@
+  h3 {
+      display: flex !important;
+      justify-content: center;
+  }
+
+  .header {
+      text-align: center
+  }
+
+  .weather_info {
+      width: 80%;
+      position: relative;
+      background-color: #787fa8;
+      padding: 1em;
+      z-index: 5;
+      box-shadow: 14px 14px 40px rgba(50, 15, 175, 0.3);
+      border-radius: 10px;
+
+  }
+
+  .city_info {
+      width: 80%;
+      position: relative;
+      background-color: #787fa8;
+      padding: 1em;
+      z-index: 5;
+      box-shadow: 14px 14px 40px rgba(50, 15, 175, 0.3);
+      border-radius: 10px;
+
+  }

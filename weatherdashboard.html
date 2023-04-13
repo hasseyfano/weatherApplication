@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OpenWeatherMap Weather Dual (Parallel) Search</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dongle:wght@300&display=swap"
+        rel="stylesheet">
+
+    <script src="weather.js"></script>
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Weather Dashboard:</h2><br>
+            <h3>Date: <p id="current_date"></p>
+            </h3>
+            <input id="Radio1" name="searchBy" type="radio" checked /> Celcius
+            <input id="Radio2" name="searchBy" type="radio" /> Ferenheit <br /><br>
+        </div>
+
+
+        <h2>Search Results:</h2>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <div id="City1" class="col border">
+                    <label>First City Name:</label>
+                    <input id="City1NameTextbox" type="text" value="Regina" />
+                    <h3>About City</h3>
+                    <p class="city_info"></p>
+                    <h3>Forecast for Next 3 hours</h3>
+                    <p class="weather_info"></p>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div id="City2" class="col border">
+                    <label>Second Name:</label><input id="City2NameTextbox" type="text" value="Moose Jaw" /> <br />
+                    <h3>About City</h3>
+                    <p class="city_info"></p>
+                    <h3>Forecast for Next 3 hours</h3>
+                    <p class="weather_info"></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
